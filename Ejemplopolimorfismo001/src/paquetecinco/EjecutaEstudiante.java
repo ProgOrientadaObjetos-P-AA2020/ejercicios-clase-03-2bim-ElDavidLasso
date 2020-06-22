@@ -6,7 +6,6 @@ import java.util.Scanner;
 import paquetecuatro.Estudiante;
 import paquetecuatro.EstudianteDistancia;
 import paquetecuatro.EstudiantePresencial;
-import paquetedos.Docente;
 
 public class EjecutaEstudiante {
 
@@ -60,7 +59,7 @@ public class EjecutaEstudiante {
                         System.out.println("Estudiantes Presencial");
                         System.out.print("Nombre: ");
                         nombresEst=entrada.next();
-                        System.out.print("Aprellidos: ");
+                        System.out.print("Apellidos: ");
                         apellidosEst=entrada.next();
                         System.out.print("Identificacion: ");
                         identificacionEst=entrada.next();
@@ -96,7 +95,7 @@ public class EjecutaEstudiante {
                     System.out.println("Estudiantes Distancia");
                     System.out.print("Nombre: ");
                     nombresEst=entrada.next();
-                    System.out.print("Aprellidos: ");
+                    System.out.print("Apellidos: ");
                     apellidosEst=entrada.next();
                     System.out.print("Identificacion: ");
                     identificacionEst=entrada.next();
